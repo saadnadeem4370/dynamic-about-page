@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "John Smith",
+    "role": "Developer",
+    "image": "https://i.pravatar.cc/300?img=1",
+    "bio": "Frontend Developer with 5 years of experience.",
+    "linkedin": "https://linkedin.com/in/johnsmith",
+    "github": "https://github.com/johnsmith"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Johnson",
+    "role": "Designer",
+    "image": "https://i.pravatar.cc/300?img=2",
+    "bio": "Creative UI/UX Designer passionate about user experiences.",
+    "linkedin": "https://linkedin.com/in/sarahjohnson",
+    "github": "https://github.com/sarahjohnson"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "role": "Manager",
+    "image": "https://i.pravatar.cc/300?img=3",
+    "bio": "Project Manager ensuring smooth delivery of projects.",
+    "linkedin": "https://linkedin.com/in/michaelbrown",
+    "github": "https://github.com/michaelbrown"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "role": "Developer",
+    "image": "https://i.pravatar.cc/300?img=4",
+    "bio": "Full Stack Developer specializing in JavaScript.",
+    "linkedin": "https://linkedin.com/in/emilydavis",
+    "github": "https://github.com/emilydavis"
+  }
+]

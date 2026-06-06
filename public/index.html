@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Team Management</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">TechNova</div>
+
+        <div class="nav-actions">
+            <button id="themeBtn">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <a href="admin.html" class="admin-btn">
+                Admin Panel
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>About Our Company</h1>
+
+        <p>
+            We create modern digital solutions that help
+            businesses grow faster and smarter.
+        </p>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+
+        <h2>Who We Are</h2>
+
+        <p>
+            TechNova Solutions is a software company focused on
+            delivering innovative web applications, user-friendly
+            interfaces and business solutions.
+        </p>
+
+        <div class="about-grid">
+
+            <div class="box">
+                <h3>Mission</h3>
+
+                <p>
+                    To empower businesses with technology-driven
+                    solutions that improve productivity and growth.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Vision</h3>
+
+                <p>
+                    To become a trusted global technology partner
+                    known for innovation and quality.
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Services</h3>
+
+                <p>
+                    Web Development, UI/UX Design, Mobile Apps,
+                    API Integration and Digital Products.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section">
+
+        <h2>Meet Our Team</h2>
+
+        <div class="controls">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Search team member..."
+            >
+
+            <select id="roleFilter">
+                <option value="All">All Roles</option>
+                <option value="Developer">Developer</option>
+                <option value="Designer">Designer</option>
+                <option value="Manager">Manager</option>
+            </select>
+
+        </div>
+
+        <div id="teamContainer" class="team-grid"></div>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
